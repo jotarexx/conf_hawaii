@@ -1,0 +1,206 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>El footer</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="57">
+
+  <!-- header -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <div class="container  ">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/platzi-logo.PNG" width="80px" alt=""> Conf Hawaii
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button> 
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ml-auto"> <!-- ML margin left -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Conferencia <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#oradores">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#place-time">Lugar y fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info_orador">Conviertete en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-platzi" href="" data-toggle="modal" data-target="#modal-compra">Comprar tickets</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- /header -->
+
+  <!-- main -->
+  <main class="main">
+    <div id="carouselOnly" class="carousel slide" data-ride="carousel" data-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="assets/images/hawaii.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src= "assets/images/hawaii2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/images/hawaii3.jpeg" alt="Third slide">
+        </div>
+        <div class="overlay">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 offset-md-6 text-right text-center">
+                <h1>PLATZI CONF</h1>
+                <p class="d-none d-md-block "> <!-- display-none / display mediano block -->
+                  Lorem ipsum dolor, sit amet consectetur adipisicing, elit. At ipsam ex, quam delectus veniam ipsum quia tenetur excepturi illo fugit rerum aperiam voluptates doloremque ullam iste provident autem fuga officia!
+                </p>
+                <a class="btn btn btn-light" href="#">
+                  Quiero ser un orador
+                </a>
+                <button type="button" class="btn btn-platzi" data-toggle="modal" data-target="#modal-compra">
+                  Comprar tickets
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- /main -->
+  
+  <!-- oradores -->
+
+  <section id="oradores" class="mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <small>Conoce a los</small>
+          <h2 >oradores</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card mb-4" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/oradores.png" alt="Card image cap">
+            <div class="card-body">
+              <div class="badge mb-2">
+                <span class="badge badge-info">Info</span>
+                <span class="badge badge-dark">Dark</span>
+              </div>
+              <h5 class="card-title">Card title</h5>              
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>          
+        </div>
+        <div class="col">
+          <div class="card mb-4" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/oradores.png" alt="Card image cap">
+            <div class="card-body">
+              <div class="badge mb-2">
+                <span class="badge badge-primary">HTML</span>
+                <span class="badge badge-success">CSS</span>
+                </div>
+                <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>          
+        </div>
+        <div class="col">
+          <div class="card mb-4" style="width: 18rem;">
+            <img class="card-img-top" src="assets/images/oradores.png" alt="Card image cap">
+            <div class="card-body">
+              <div class="badge mb-2">
+                <span class="badge badge-danger">Angular</span>
+                <span class="badge badge-warning">Javascript</span>
+              </div>
+              <h5 class="card-title">Card title</h5>              
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /oradores -->
+
+  <!-- Lugar y fecha -->
+
+  <section id="place-time">
+    <div class="container-fluid">
+      <div class="row"> <!-- col-lg-6 ocupe mitad de la grilla en tam grande -->
+        <div class="col-12 col-lg-6 pr-0 pl-0"> <!-- padding rigth/left -->
+          <img src="assets/images/honolulu.jpg" alt="">
+        </div>
+        <div class="col-12 col-lg-6 mt-4 pb-4">
+          <h2>Honolulu - Marzo 2026</h2>
+          <p>Honolulu u Honolulú2​ es la capital y localidad más grande del estado de Hawái, en los Estados Unidos.nota 1​ Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).</p>
+          <a class="btn btn-outline-light" href="https://es.wikipedia.org/wiki/Honolulu">Conoce más </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Lugar y fecha -->
+
+  <!-- orador -->
+  <section id="info_orador">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <small>Conviértete en un</small>
+          <h2>Orador</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          anotate anotate anotate
+           anotate anotate anotate <abbr title="charlas de 5 minutos">ignite</abbr> anotate anotate anotate anotate anotate anotate anotate anotate 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-10 offset-md-1">
+          <form>
+            <div class="form-row mb-2 mt-4 ">
+              <div class="col-12 col-md-6 mb-1">
+                <input type="text" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="col-12 col-md-6 mb-1">
+                <input type="text" class="form-control" placeholder="Apellido">
+              </div>
+            </div>
+              <div class="form-row">
+                <div class="col">
+                  <textarea name="text" class="form-control" id="formGroupExampleInput" placeholder="Dinos tu propuesta"></textarea>
+                  <small class="form-text text-muted mb-3">
+                    Recuerda incluir titulo de charla
+                  </small>
+                </div>
+              </div>
+                <div class="form-row">
+                  <div class="col">
+                    <button type="button" class="btn btn-platzi btn-block mb-3">Enviar</button>
+                  </div>
+                </div>
+             </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /orador -->
