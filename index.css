@@ -10,7 +10,7 @@
 #carouselOnly{
   position: relative;
 }
-#carouselOnly .overlay { /* overlay: cubrir  superficie con una capa */
+#carouselOnly .overlay { 
   position: absolute;
   top: 0;
   bottom: 0;
