@@ -1,5 +1,5 @@
 # conf_hawaii 2021
-International conference of programmers
+Proyect web International conference of programmers
 
 EXAMPLE: https://jotarexx.github.io/conf_hawaii/
 
