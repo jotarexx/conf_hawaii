@@ -3,6 +3,4 @@ Proyect web International conference of programmers
 
 EXAMPLE: https://jotarexx.github.io/conf_hawaii/
 
-
-![jotarexx github io_conf_hawaii_](https://user-images.githubusercontent.com/63475312/151685885-fbc8a176-7240-4bb5-a3f1-756a154a40f7.png)
-
+![Conf Hawaii 2021](https://user-images.githubusercontent.com/63475312/185636665-0c911168-975b-44eb-8eb1-80a5113c7a23.gif)
